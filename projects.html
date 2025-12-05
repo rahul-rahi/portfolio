@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects | Rahul Rai</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-left">
+      <img src="images/logo.png" alt="Rahul logo" class="logo" />
+      <span class="brand-name">Rahul Rai</span>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section fade-in">
+      <h1>Projects</h1>
+      <p class="section-subtitle">
+        Some of my DevOps & Cloud projects that showcase my skills in automation, CI/CD and AWS.
+      </p>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <h2>AWS Web App Deployment</h2>
+          <p>
+            Deployed a Node.js web application on AWS EC2 behind a Load Balancer.
+            Used Route 53 for custom domain routing, S3 for static content, and configured VPC,
+            Security Groups and Auto Scaling.
+          </p>
+          <ul>
+            <li>AWS EC2, S3, Route53, Auto Scaling</li>
+            <li>IAM roles, custom VPC, Security Groups</li>
+            <li>Highly available and scalable architecture</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h2>Multi-Container App with Docker Compose & Jenkins</h2>
+          <p>
+            Deployed a multi-container web application using Docker Compose.
+            Jenkins pipeline automated build, test and deployment steps.
+          </p>
+          <ul>
+            <li>Docker & Docker Compose</li>
+            <li>Jenkins CI/CD pipeline</li>
+            <li>Automated containerized deployments</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h2>Simple Web App CI/CD with Jenkins & Docker</h2>
+          <p>
+            Implemented a CI/CD pipeline for a simple HTML-based web application.
+            Jenkins automatically built Docker images and deployed them on the target server.
+          </p>
+          <ul>
+            <li>Git → Jenkins → Docker → Server</li>
+            <li>Automated builds and deployments</li>
+            <li>Improved delivery consistency</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h2>Jenkins + Docker + Ansible Deployment</h2>
+          <p>
+            Automated application deployment using Jenkins for orchestration,
+            Docker for containerization and Ansible for provisioning target servers.
+          </p>
+          <ul>
+            <li>Ansible playbooks for provisioning</li>
+            <li>Dockerized app deployments</li>
+            <li>End-to-end automation from commit to deploy</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h2>Kubernetes Deployment on EKS</h2>
+          <p>
+            Created Kubernetes manifests (Deployments, Services, ConfigMaps, Secrets)
+            and deployed microservices on Amazon EKS.
+          </p>
+          <ul>
+            <li>EKS cluster setup & configuration</li>
+            <li>Pod/Service/ConfigMap/Secret management</li>
+            <li>Scalable microservice architecture</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Rahul Rai • DevOps & Cloud Engineer • DevChain Insights</p>
+  </footer>
+</body>
+</html>
+
